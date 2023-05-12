@@ -26,9 +26,14 @@ El proyecto sigue la siguiente estructura de carpetas:
 
 1. Descargar el repositorio desde [https://github.com/yeltsinvc/SUMO_TUTORIAL](https://github.com/yeltsinvc/SUMO_TUTORIAL). Descomprime el repositorio.
 2. Instale [SUMO](https://www.eclipse.org/sumo/).
-3. Instale un editor o alguna plafaforma que permita trabajar con python. En el caso de editor de codigo se recomienda [Visual Studio Code](https://code.visualstudio.com/updates/v1_78) y para el caso de plataformar utilizar [Spyder de Anaconda](https://www.anaconda.com/download)
+3. Instale un editor y/o alguna plafaforma que permita trabajar con python. En el caso de editor de codigo se recomienda [Visual Studio Code](https://code.visualstudio.com/updates/v1_78) y para el caso de plataformar utilizar [Spyder de Anaconda](https://www.anaconda.com/download)
 
-
+## Tutorial Basico
+### 1. Conversion del archivo osm a una red en SUMO.
+Una vez descargado el repositorio para crear la red sumo, utilizaremos `netconvert` en la consola. 
+```
+netconvert --osm-files .\datos\sanjuanlurigancho.osm -o sumo\net.net.xml
+```
 
 ## Contribuciones
 
