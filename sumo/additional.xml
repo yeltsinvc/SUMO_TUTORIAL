@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-13 00:55:06 by Eclipse SUMO netconvert Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <osm-files value=".\datos\sanjuanlurigancho.osm"/>
+    </input>
+
+    <output>
+        <output-file value="sumo\net.net.xml"/>
+        <ptstop-output value="sumo\additional.xml"/>
+        <ptline-output value="sumo\ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <formats>
+        <osm.stop-output.length value="20"/>
+    </formats>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="3801268572" name="Paradero 16 Avenida Bayovar" lane="341676628#15_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="3801270925" name="Paradero 15 Avenida Bayovar" lane="341676628#13_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="3801271282" name="Paradero 13 Avenida Bayovar" lane="288665011#0_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="3801275335" name="Paradero 12 Avenida Bayovar" lane="341676628#0_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="3801392076" name="5 Canto Grande" lane="330424995#5_0" startPos="33.30" endPos="48.30" friendlyPos="true" lines="409"/>
+    <busStop id="4462723594" name="Paradero 2 de huascar." lane="116948995#0_0" startPos="0.00" endPos="0.20" friendlyPos="true"/>
+    <busStop id="4462723596" name="Paradero 1 de huascar." lane="429310055#0_0" startPos="0.00" endPos="1.27" friendlyPos="true"/>
+    <busStop id="4560115893" name="Paradero Canteras" lane="315561697#4_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="4698272593" name="La Quince" lane="550165813#1_0" startPos="217.19" endPos="232.19" friendlyPos="true" lines="404">
+        <access lane="-119442001#8_0" pos="0.00" length="49.81" friendlyPos="1"/>
+        <access lane="1069133636#0_0" pos="160.84" length="5.33" friendlyPos="1"/>
+        <access lane="1069133636#1_0" pos="20.13" length="2.52" friendlyPos="1"/>
+        <access lane="119442086#10_0" pos="1.90" length="54.06" friendlyPos="1"/>
+        <access lane="187195974#5_0" pos="224.69" length="14.10" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5307200032" name="Santa Rosa" lane="549554420_0" startPos="0.00" endPos="15.00" friendlyPos="true" lines="412 405 SE-02"/>
+    <busStop id="5308410954" name="Estación San Martín" lane="551970578_0" startPos="0.00" endPos="188.42" friendlyPos="true" lines="L1">
+        <access lane="550979345#0_0" pos="2.24" length="18.64" friendlyPos="1"/>
+        <access lane="550979345#1_0" pos="0.00" length="20.33" friendlyPos="1"/>
+        <access lane="550979346_0" pos="0.00" length="22.59" friendlyPos="1"/>
+        <access lane="550979347#0_0" pos="9.73" length="7.94" friendlyPos="1"/>
+        <access lane="550979348#0_0" pos="11.56" length="12.75" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5308410955" name="Estación Santa Rosa" lane="550454247_0" startPos="229.94" endPos="429.94" friendlyPos="true" lines="L1">
+        <access lane="549554420_0" pos="0.50" length="16.37" friendlyPos="1"/>
+        <access lane="549761432#1_0" pos="23.11" length="10.97" friendlyPos="1"/>
+        <access lane="549761434#1_0" pos="25.88" length="9.60" friendlyPos="1"/>
+        <access lane="549761438_0" pos="0.00" length="31.02" friendlyPos="1"/>
+        <access lane="550166689#1_0" pos="81.44" length="24.11" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5308410964" name="Estación Bayóvar" lane="543026867_0" startPos="0.00" endPos="183.35" friendlyPos="true" lines="L1">
+        <access lane="549763342#1_0" pos="1.38" length="10.18" friendlyPos="1"/>
+        <access lane="549763342#2_0" pos="1.58" length="2.47" friendlyPos="1"/>
+        <access lane="549763342#3_0" pos="0.00" length="10.68" friendlyPos="1"/>
+        <access lane="549763346_0" pos="0.00" length="8.89" friendlyPos="1"/>
+        <access lane="550663680_0" pos="0.48" length="13.40" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5308514828" name="Estación Bayóvar" lane="551979096_0" startPos="0.00" endPos="183.79" friendlyPos="true" lines="L1">
+        <access lane="317310792#2_0" pos="72.64" length="13.25" friendlyPos="1"/>
+        <access lane="549763342#2_0" pos="5.43" length="1.92" friendlyPos="1"/>
+        <access lane="549763342#3_0" pos="0.00" length="5.51" friendlyPos="1"/>
+        <access lane="549763344_0" pos="0.00" length="8.39" friendlyPos="1"/>
+        <access lane="550165814_0" pos="0.00" length="13.08" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5308518322" name="La Ocho" lane="549566270_0" startPos="15.20" endPos="30.20" friendlyPos="true" lines="412 405 SE-02"/>
+    <busStop id="5310407356" name="Estación San Martín" lane="551970581_0" startPos="0.00" endPos="188.15" friendlyPos="true" lines="L1">
+        <access lane="550979345#0_0" pos="3.01" length="19.82" friendlyPos="1"/>
+        <access lane="550979345#1_0" pos="0.00" length="19.55" friendlyPos="1"/>
+        <access lane="550979346_0" pos="0.00" length="22.83" friendlyPos="1"/>
+        <access lane="550979347#0_0" pos="10.10" length="13.02" friendlyPos="1"/>
+        <access lane="550979348#0_0" pos="11.92" length="7.67" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5310407365" name="Estación Santa Rosa" lane="550454250_0" startPos="570.46" endPos="770.46" friendlyPos="true" lines="L1">
+        <access lane="549554420_0" pos="0.73" length="9.44" friendlyPos="1"/>
+        <access lane="549761432#1_0" pos="22.90" length="4.03" friendlyPos="1"/>
+        <access lane="549761434#1_0" pos="25.66" length="16.54" friendlyPos="1"/>
+        <access lane="550166689#0_0" pos="134.03" length="28.36" friendlyPos="1"/>
+        <access lane="550166689#1_0" pos="80.96" length="17.20" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5310466710" name="Canto Rey" lane="550166692_0" startPos="16.96" endPos="31.96" friendlyPos="true" lines="SE-02"/>
+    <busStop id="5310466713" name="La Ocho" lane="550166693#2_0" startPos="114.62" endPos="129.62" friendlyPos="true" lines="405 SE-02">
+        <access lane="320595936#12_0" pos="21.15" length="52.82" friendlyPos="1"/>
+        <access lane="549760029#1_0" pos="13.74" length="36.71" friendlyPos="1"/>
+        <access lane="549760029#2_0" pos="0.00" length="37.44" friendlyPos="1"/>
+        <access lane="68540177#6_0" pos="122.37" length="20.14" friendlyPos="1"/>
+        <access lane="68540177#7_0" pos="0.00" length="44.99" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5310502405" name="Bayóvar" lane="550165812_0" startPos="133.51" endPos="148.51" friendlyPos="true" lines="405 SE-02"/>
+    <busStop id="5310502406" name="Bayóvar" lane="550165814_0" startPos="2.52" endPos="17.52" friendlyPos="true" lines="412 405 404"/>
+    <busStop id="5313982717" lane="344175967#9_0" startPos="195.08" endPos="210.08" friendlyPos="true">
+        <access lane="-119441948#9_0" pos="0.00" length="83.90" friendlyPos="1"/>
+        <access lane="1069133636#0_0" pos="0.00" length="51.76" friendlyPos="1"/>
+        <access lane="1069133636#1_0" pos="190.46" length="48.38" friendlyPos="1"/>
+        <access lane="187195973#9_0" pos="49.04" length="23.70" friendlyPos="1"/>
+        <access lane="187195974#5_0" pos="49.20" length="54.09" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5465130121" name="paradero Canteras" lane="323714543#1_0" startPos="107.84" endPos="122.84" friendlyPos="true"/>
+    <busStop id="5465130122" name="paradero Complejo" lane="366206854#0_0" startPos="0.00" endPos="0.10" friendlyPos="true"/>
+    <busStop id="6412729086" name="Santa Rosa" lane="339429576#3_0" startPos="130.82" endPos="145.82" friendlyPos="true" lines="404"/>
+    <busStop id="6412729087" name="Sedapal" lane="316471806#0_0" startPos="13.19" endPos="28.19" friendlyPos="true" lines="404">
+        <access lane="-316471804#0_0" pos="3.30" length="45.97" friendlyPos="1"/>
+        <access lane="316471804#0_0" pos="0.00" length="41.40" friendlyPos="1"/>
+        <access lane="320595936#16_0" pos="66.30" length="48.31" friendlyPos="1"/>
+        <access lane="68540177#0_0" pos="28.30" length="17.16" friendlyPos="1"/>
+        <access lane="970804661_0" pos="135.21" length="27.36" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6412733285" name="Paradero Buenos Aires" lane="187195973#4_0" startPos="1.97" endPos="16.97" friendlyPos="true"/>
+    <busStop id="824153692" name="Canto Rey" lane="550166691_0" startPos="4.29" endPos="19.29" friendlyPos="true" lines="412 SE-02"/>
+    <busStop id="824154348" name="San Martin" lane="319649659#3_0" startPos="185.23" endPos="200.23" friendlyPos="true" lines="412 405 SE-02"/>
+    <busStop id="8258416791" name="Turismo Rochaz" lane="187195954_0" startPos="15.82" endPos="30.82" friendlyPos="true"/>
+    <busStop id="9112076830" name="Sedapal" lane="550166690#2_0" startPos="151.00" endPos="166.00" friendlyPos="true" lines="404">
+        <access lane="316471804#1_0" pos="0.00" length="39.05" friendlyPos="1"/>
+        <access lane="320595936#16_0" pos="67.84" length="13.12" friendlyPos="1"/>
+        <access lane="869958576_0" pos="13.95" length="25.55" friendlyPos="1"/>
+        <access lane="869958577#1_0" pos="9.81" length="24.96" friendlyPos="1"/>
+        <access lane="869958577#2_0" pos="7.02" length="17.25" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9217322440" name="2 Canto Grande" lane="330424995#10_0" startPos="185.81" endPos="200.81" friendlyPos="true"/>
+    <busStop id="9217322441" name="5 Canto Grande" lane="316471805#1_0" startPos="37.01" endPos="52.01" friendlyPos="true"/>
+    <busStop id="9217322442" name="5 Canto Grande" lane="330424995#5_0" startPos="32.54" endPos="47.54" friendlyPos="true"/>
+    <busStop id="9217322443" name="8 Canto Grande" lane="320523917#7_0" startPos="6.18" endPos="21.18" friendlyPos="true"/>
+    <busStop id="9217322444" name="8 Canto Grande" lane="316471805#10_0" startPos="144.35" endPos="159.35" friendlyPos="true"/>
+    <busStop id="9217322445" name="10 Canto Grande" lane="319803738#0_0" startPos="0.00" endPos="12.01" friendlyPos="true"/>
+    <busStop id="9217322446" name="10 Canto Grande" lane="116992008#22_0" startPos="47.87" endPos="62.87" friendlyPos="true"/>
+    <busStop id="9217322447" name="12 Canto Grande" lane="316471801#9_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="9217322448" name="12 Canto Grande" lane="116992008#12_0" startPos="135.53" endPos="150.53" friendlyPos="true"/>
+    <busStop id="9217322449" name="13 Canto Grande" lane="316471801#10_0" startPos="141.92" endPos="156.92" friendlyPos="true"/>
+    <busStop id="9217322450" name="13 Canto Grande" lane="116992008#8_0" startPos="0.00" endPos="14.24" friendlyPos="true"/>
+    <busStop id="9217322451" name="16 Canto Grande" lane="316471801#18_0" startPos="34.65" endPos="49.65" friendlyPos="true"/>
+    <busStop id="9217322452" name="16 Canto Grande" lane="332736172#1_0" startPos="6.57" endPos="21.57" friendlyPos="true"/>
+    <busStop id="9231599118" name="San Carlos" lane="550166690#3_0" startPos="575.00" endPos="590.00" friendlyPos="true"/>
+    <busStop id="9231599120" name="La Ocho" lane="550166693#2_0" startPos="113.69" endPos="128.69" friendlyPos="true" lines="404">
+        <access lane="549418674#0_0" pos="0.00" length="56.83" friendlyPos="1"/>
+        <access lane="549760029#1_0" pos="13.74" length="39.86" friendlyPos="1"/>
+        <access lane="549760029#2_0" pos="0.00" length="38.13" friendlyPos="1"/>
+        <access lane="68540177#6_0" pos="121.27" length="13.50" friendlyPos="1"/>
+        <access lane="68540177#7_0" pos="0.00" length="44.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9231599128" name="San Martin" lane="550166693#8_0" startPos="168.26" endPos="183.26" friendlyPos="true" lines="405 SE-02">
+        <access lane="319649659#7_0" pos="21.96" length="24.56" friendlyPos="1"/>
+        <access lane="68540177#13_0" pos="176.21" length="27.20" friendlyPos="1"/>
+        <access lane="984501782#0_0" pos="0.00" length="36.88" friendlyPos="1"/>
+        <access lane="984501782#1_0" pos="0.00" length="37.48" friendlyPos="1"/>
+        <access lane="984501783_0" pos="10.89" length="37.11" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9231599129" name="San Martin" lane="550166693#8_0" startPos="168.14" endPos="183.14" friendlyPos="true" lines="404">
+        <access lane="319649659#7_0" pos="22.26" length="30.60" friendlyPos="1"/>
+        <access lane="68540177#13_0" pos="176.18" length="21.14" friendlyPos="1"/>
+        <access lane="984501779_0" pos="0.00" length="37.37" friendlyPos="1"/>
+        <access lane="984501782#1_0" pos="0.30" length="37.34" friendlyPos="1"/>
+        <access lane="984501783_0" pos="10.89" length="38.61" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9231599130" name="Santa Rosa" lane="339429576#3_0" startPos="130.82" endPos="145.82" friendlyPos="true" lines="405 SE-02"/>
+    <busStop id="9231599131" name="La Quince" lane="344175967#8_0" startPos="203.26" endPos="218.26" friendlyPos="true" lines="405 SE-02">
+        <access lane="-119442086#10_0" pos="1.90" length="29.15" friendlyPos="1"/>
+        <access lane="-119442086#9_0" pos="0.00" length="29.21" friendlyPos="1"/>
+        <access lane="1069133078#1_0" pos="432.40" length="27.67" friendlyPos="1"/>
+        <access lane="119442086#10_0" pos="0.00" length="33.69" friendlyPos="1"/>
+        <access lane="187195973#7_0" pos="34.32" length="26.64" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9231599132" name="La Quince" lane="344175967#8_0" startPos="203.00" endPos="218.00" friendlyPos="true" lines="404">
+        <access lane="-119442086#10_0" pos="1.90" length="31.23" friendlyPos="1"/>
+        <access lane="-119442086#9_0" pos="0.00" length="28.32" friendlyPos="1"/>
+        <access lane="1069133078#1_0" pos="432.67" length="31.72" friendlyPos="1"/>
+        <access lane="119442086#9_0" pos="2.03" length="33.02" friendlyPos="1"/>
+        <access lane="187195973#7_0" pos="34.12" length="22.57" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9231599133" name="Bayóvar" lane="550165812_0" startPos="131.94" endPos="146.94" friendlyPos="true" lines="404"/>
+    <busStop id="9236548889" name="1 Canto Grande" lane="330424995#12_0" startPos="90.90" endPos="105.90" friendlyPos="true"/>
+    <busStop id="9236548894" name="3 Canto Grande" lane="346410410#0_0" startPos="52.69" endPos="67.69" friendlyPos="true"/>
+    <busStop id="9236548895" name="3 Canto Grande" lane="330424995#9_0" startPos="191.66" endPos="206.66" friendlyPos="true"/>
+    <busStop id="9236548897" name="4 Canto Grande" lane="346410410#4_0" startPos="54.08" endPos="69.08" friendlyPos="true"/>
+    <busStop id="9236548898" name="4 Canto Grande" lane="330424995#6_0" startPos="162.09" endPos="177.09" friendlyPos="true"/>
+    <busStop id="9236548901" name="6 Canto Grande" lane="330424995#2_0" startPos="72.02" endPos="87.02" friendlyPos="true"/>
+    <busStop id="9236548902" name="6 Canto Grande" lane="316471805#2_0" startPos="132.14" endPos="147.14" friendlyPos="true"/>
+    <busStop id="9236548904" name="7 Canto Grande" lane="316471805#8_0" startPos="1.38" endPos="16.38" friendlyPos="true"/>
+    <busStop id="9236548905" name="7 Canto Grande" lane="320523917#11_0" startPos="26.56" endPos="41.56" friendlyPos="true"/>
+    <busStop id="9236548907" name="8 Canto Grande" lane="320523917#7_0" startPos="5.95" endPos="20.95" friendlyPos="true" lines="409"/>
+    <busStop id="9236548908" name="9 Canto Grande" lane="316471805#15_0" startPos="41.00" endPos="56.00" friendlyPos="true"/>
+    <busStop id="9236548909" name="9 Canto Grande" lane="320523917#3_0" startPos="49.93" endPos="64.93" friendlyPos="true"/>
+    <busStop id="9236548911" name="10 Canto Grande" lane="116992008#22_0" startPos="47.87" endPos="62.87" friendlyPos="true" lines="409"/>
+    <busStop id="9236548912" name="11 Canto Grande" lane="316471801#6_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="9236548913" name="11 Canto Grande" lane="116992008#15_0" startPos="87.99" endPos="102.99" friendlyPos="true"/>
+    <busStop id="9236548915" name="12 Canto Grande" lane="116992008#12_0" startPos="135.53" endPos="150.53" friendlyPos="true" lines="409"/>
+    <busStop id="9236548916" name="13 Canto Grande" lane="116992008#8_0" startPos="0.00" endPos="14.24" friendlyPos="true" lines="409"/>
+    <busStop id="9236554717" name="14 Canto Grande" lane="316471801#13_0" startPos="74.45" endPos="89.45" friendlyPos="true"/>
+    <busStop id="9236554718" name="14 Canto Grande" lane="116992008#1_0" startPos="7.62" endPos="22.62" friendlyPos="true"/>
+    <busStop id="9236554720" name="15 Canto Grande" lane="332736172#8_0" startPos="3.61" endPos="18.61" friendlyPos="true"/>
+    <busStop id="9236554722" name="15 Canto Grande" lane="316471801#16_0" startPos="70.54" endPos="85.54" friendlyPos="true"/>
+    <busStop id="9236554723" name="16 Canto Grande" lane="332736172#1_0" startPos="6.57" endPos="21.57" friendlyPos="true" lines="409"/>
+    <busStop id="9236554724" name="Catorce - Jose Carlos Mariátegui" lane="341676628#7_0" startPos="9.92" endPos="24.92" friendlyPos="true"/>
+    <busStop id="9236554725" name="Farmacia Leo" lane="341676628#16_0" startPos="36.90" endPos="51.90" friendlyPos="true"/>
+    <busStop id="9236554726" name="Lubricantes" lane="316476715#6_0" startPos="8.66" endPos="23.66" friendlyPos="true"/>
+    <busStop id="9236554727" name="Lubricantes" lane="17503330#2_0" startPos="15.10" endPos="30.10" friendlyPos="true"/>
+    <busStop id="9236554728" name="Lubricantes" lane="17503330#2_0" startPos="15.10" endPos="30.10" friendlyPos="true" lines="409"/>
+    <busStop id="9236554729" name="Farmacia Leo" lane="17503330#6_0" startPos="64.18" endPos="79.18" friendlyPos="true"/>
+    <busStop id="9236554730" name="Farmacia Leo" lane="17503330#6_0" startPos="65.12" endPos="80.12" friendlyPos="true" lines="409"/>
+    <busStop id="9236554731" name="Catorce - Jose Carlos Mariátegui" lane="319652399#9_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="9236554732" name="Catorce - Jose Carlos Mariátegui" lane="319652399#9_0" startPos="0.00" endPos="15.00" friendlyPos="true" lines="409"/>
+    <busStop id="9238681373" name="Bayóvar" lane="550165814_0" startPos="1.81" endPos="16.81" friendlyPos="true" lines="SE-02"/>
+    <busStop id="9238681374" name="La Quince" lane="550165813#1_0" startPos="217.46" endPos="232.46" friendlyPos="true" lines="412 405 SE-02">
+        <access lane="-119442001#8_0" pos="0.00" length="50.48" friendlyPos="1"/>
+        <access lane="1069133636#0_0" pos="161.19" length="15.56" friendlyPos="1"/>
+        <access lane="1069133636#1_0" pos="19.69" length="7.71" friendlyPos="1"/>
+        <access lane="119442086#10_0" pos="1.90" length="50.46" friendlyPos="1"/>
+        <access lane="187195974#5_0" pos="224.90" length="24.34" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9238681375" name="Santa Rosa" lane="550165813#6_0" startPos="116.17" endPos="131.17" friendlyPos="true" lines="404">
+        <access lane="549554420_0" pos="0.00" length="8.66" friendlyPos="1"/>
+        <access lane="549761432#1_0" pos="23.86" length="14.06" friendlyPos="1"/>
+        <access lane="550166689#0_0" pos="133.18" length="10.26" friendlyPos="1"/>
+        <access lane="550166689#1_0" pos="81.22" length="0.94" friendlyPos="1"/>
+        <access lane="550422799#4_0" pos="130.96" length="17.76" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9238681376" name="San Martin" lane="319649659#3_0" startPos="184.25" endPos="199.25" friendlyPos="true" lines="404"/>
+    <busStop id="9238681377" name="La Ocho" lane="549566270_0" startPos="15.65" endPos="30.65" friendlyPos="true" lines="404"/>
+    <busStop id="9238681379" name="Sedapal" lane="550166690#2_0" startPos="150.04" endPos="165.04" friendlyPos="true" lines="405 SE-02">
+        <access lane="316471804#0_0" pos="3.30" length="39.82" friendlyPos="1"/>
+        <access lane="320595936#16_0" pos="66.85" length="17.77" friendlyPos="1"/>
+        <access lane="869958576_0" pos="13.95" length="28.87" friendlyPos="1"/>
+        <access lane="869958577#1_0" pos="9.81" length="27.52" friendlyPos="1"/>
+        <access lane="869958577#2_0" pos="6.08" length="21.93" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9238681380" name="Sedapal" lane="316471806#0_0" startPos="13.10" endPos="28.10" friendlyPos="true" lines="405 SE-02">
+        <access lane="-316471804#0_0" pos="3.30" length="43.99" friendlyPos="1"/>
+        <access lane="316471804#0_0" pos="0.00" length="39.24" friendlyPos="1"/>
+        <access lane="320595936#16_0" pos="66.48" length="40.76" friendlyPos="1"/>
+        <access lane="68540177#0_0" pos="28.10" length="24.72" friendlyPos="1"/>
+        <access lane="970804661_0" pos="135.13" length="34.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9249583342" lane="550165813#0_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="187195974#3_0" pos="78.20" length="20.67" friendlyPos="1"/>
+        <access lane="187195974#4_0" pos="0.00" length="19.09" friendlyPos="1"/>
+        <access lane="550165812_0" pos="20.13" length="38.75" friendlyPos="1"/>
+        <access lane="550165814_0" pos="145.98" length="7.68" friendlyPos="1"/>
+        <access lane="554969193_0" pos="0.00" length="24.60" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9438186765" name="Seoane" lane="314361439#3_0" startPos="35.06" endPos="50.06" friendlyPos="true" lines="SE-02"/>
+    <busStop id="9438186767" lane="550165813#4_0" startPos="103.65" endPos="118.65" friendlyPos="true">
+        <access lane="1069131151#0_0" pos="113.66" length="26.45" friendlyPos="1"/>
+        <access lane="1069131151#1_0" pos="40.90" length="7.84" friendlyPos="1"/>
+        <access lane="116953608#0_0" pos="4.72" length="61.20" friendlyPos="1"/>
+        <access lane="187195973#4_0" pos="56.11" length="45.59" friendlyPos="1"/>
+        <access lane="550422799#2_0" pos="114.49" length="40.64" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9438186782" name="Seoane" lane="323714543#3_0" startPos="39.89" endPos="54.89" friendlyPos="true" lines="SE-02"/>
+</additional>

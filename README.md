@@ -32,8 +32,24 @@ El proyecto sigue la siguiente estructura de carpetas:
 ### 1. Conversion del archivo osm a una red en SUMO.
 Una vez descargado el repositorio para crear la red sumo, utilizaremos `netconvert` en la consola. 
 ```
-netconvert --osm-files .\datos\sanjuanlurigancho.osm -o sumo\net.net.xml
+netconvert --osm-files .\datos\sanjuanlurigancho.osm -o sumo\net.net.xml --osm.stop-output.length 20 --ptstop-output sumo\additional.xml --ptline-output sumo\ptlines.xml
 ```
+
+- `netconvert`: Es el nombre del programa o comando que se utiliza en SUMO para convertir datos de la red.
+
+- `--osm-files .\datos\sanjuanlurigancho.osm`: Especifica el archivo de datos de OpenStreetMap que se utilizará para construir la red de tráfico. En este caso, el archivo se encuentra en la ruta `.\datos\sanjuanlurigancho.osm`. El prefijo `.\` indica que la ruta es relativa a la ubicación actual del comando.
+
+- `-o sumo\net.net.xml`: Especifica el nombre y la ubicación del archivo de salida de la red generada por el comando `netconvert`. En este caso, el archivo de salida se guarda en la carpeta `sumo` con el nombre `net.net.xml`.
+
+- `--osm.stop-output.length 20`: Esta opción define la longitud de las plataformas de parada PT en metros.
+
+- `--ptstop-output sumo\additional.xml`: Esta opción especifica el nombre y la ubicación del archivo de salida que contiene información adicional sobre las paradas de autobús generadas. En este caso, el archivo de salida se guarda en la carpeta `sumo` con el nombre `additional.xml`.
+
+- `--ptline-output sumo\ptlines.xml`: Esta opción especifica el nombre y la ubicación del archivo de salida que contiene información sobre las líneas de transporte público generadas. En este caso, el archivo de salida se guarda en la carpeta `sumo` con el nombre `ptlines.xml`.
+
+Esta línea de comando te permite realizar la conversión de datos de OpenStreetMap a una red de tráfico en SUMO, y obtener información detallada sobre las paradas de autobús y las líneas de transporte público en la zona especificada por el archivo OSM.
+
+### 2. Creacion del trafico de vehiculos ligeros
 
 ## Contribuciones
 
