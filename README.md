@@ -50,7 +50,23 @@ netconvert --osm-files .\datos\sanjuanlurigancho.osm -o sumo\net.net.xml --osm.s
 Esta línea de comando te permite realizar la conversión de datos de OpenStreetMap a una red de tráfico en SUMO, y obtener información detallada sobre las paradas de autobús y las líneas de transporte público en la zona especificada por el archivo OSM.
 
 ### 2. Creacion del trafico de vehiculos ligeros
+```
+python .\scripts\randomTrips.py -n .\sumo\net.net.xml -r .\sumo\routes.rou.xml -e 3600 -l
+```
 
+### 3. Archivo de configuracion
+```
+<configuration>
+    <input>
+        <net-file value="tu_red.net.xml"/>
+        <route-files value="tus_rutas.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+</configuration>
+```
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si desea contribuir a este proyecto, abra un problema o envíe una solicitud de extracción con sus mejoras.
