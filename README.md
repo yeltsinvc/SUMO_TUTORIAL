@@ -25,7 +25,7 @@ El proyecto sigue la siguiente estructura de carpetas:
 ## Instrucciones de instalación
 
 1. Descargar el repositorio desde [https://github.com/yeltsinvc/SUMO_TUTORIAL](https://github.com/yeltsinvc/SUMO_TUTORIAL). Descomprime el repositorio.
-2. Instale SUMO siguiendo las instrucciones proporcionadas por el proyecto SUMO.
+2. Instale [https://www.eclipse.org/sumo/](SUMO).
 3. Coloque el archivo de datos de OpenStreetMap en la carpeta `data/`.
 4. [Opcional] Ajuste los parámetros en el archivo `randomtrips.py` según sea necesario.
 5. Ejecute el siguiente comando para generar los viajes aleatorios: `python data/randomtrips.py -n <NUM_VIAJES> -r data/map.osm`.
