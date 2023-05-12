@@ -22,19 +22,15 @@ El proyecto sigue la siguiente estructura de carpetas:
 
 - `requirements.txt`: Archivo que especifica las dependencias del proyecto.
 
-## Instrucciones de instalación
+## Requerimientos
 
 1. Descargar el repositorio desde [https://github.com/yeltsinvc/SUMO_TUTORIAL](https://github.com/yeltsinvc/SUMO_TUTORIAL). Descomprime el repositorio.
 2. Instale [SUMO](https://www.eclipse.org/sumo/).
-3. Coloque el archivo de datos de OpenStreetMap en la carpeta `data/`.
-4. [Opcional] Ajuste los parámetros en el archivo `randomtrips.py` según sea necesario.
-5. Ejecute el siguiente comando para generar los viajes aleatorios: `python data/randomtrips.py -n <NUM_VIAJES> -r data/map.osm`.
-   - Reemplace `<NUM_VIAJES>` con el número deseado de viajes aleatorios a generar.
-6. Ejecute el siguiente comando para generar rutas utilizando pt2flow: `python data/pt2flow.py`.
-7. Los resultados se guardarán en la carpeta `data/results/`.
+3. Instale un editor o alguna plafaforma que permita trabajar con python. En el caso de editor de codigo se recomienda [Visual Studio Code](https://code.visualstudio.com/updates/v1_78) y para el caso de plataformar utilizar [Spyder de Anaconda](https://www.anaconda.com/download)
+
+
 
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si desea contribuir a este proyecto, abra un problema o envíe una solicitud de extracción con sus mejoras.
 
-## Lic
