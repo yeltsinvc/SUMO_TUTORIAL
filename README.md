@@ -24,7 +24,7 @@ El proyecto sigue la siguiente estructura de carpetas:
 
 ## Instrucciones de instalación
 
-1. Clone este repositorio: `git clone https://github.com/tuusuario/proyecto-sumo-osm.git`.
+1. Descargar el repositorio desde [https://github.com/yeltsinvc/SUMO_TUTORIAL](https://github.com/yeltsinvc/SUMO_TUTORIAL). Descomprime el repositorio.
 2. Instale SUMO siguiendo las instrucciones proporcionadas por el proyecto SUMO.
 3. Coloque el archivo de datos de OpenStreetMap en la carpeta `data/`.
 4. [Opcional] Ajuste los parámetros en el archivo `randomtrips.py` según sea necesario.
