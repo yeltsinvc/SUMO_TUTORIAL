@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-13 17:49:09 by Eclipse SUMO GUI Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../sumo/net.net.xml"/>
+        <route-files value="../sumo/routes.rou.xml,../sumo/flows.rou.xml"/>
+        <additional-files value="../sumo/additional.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="../sumo/fcd.xml"/>
+        <tripinfo-output value="tripinfo_1.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="600"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="8873"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="15" depart="15.00" departLane="344175967#8_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="81.00" arrivalLane="187195973#6_1" arrivalPos="161.57" arrivalSpeed="10.08" duration="66.00" routeLength="668.45" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="11.20" rerouteNo="0" devices="tripinfo_15 fcd_15" vType="DEFAULT_VEHTYPE" speedFactor="0.99" vaporized=""/>
+    <tripinfo id="31" depart="31.00" departLane="119524849#2_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="97.00" arrivalLane="186793702#2_0" arrivalPos="45.81" arrivalSpeed="15.86" duration="66.00" routeLength="1022.21" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.37" rerouteNo="0" devices="tripinfo_31 fcd_31" vType="DEFAULT_VEHTYPE" speedFactor="1.18" vaporized=""/>

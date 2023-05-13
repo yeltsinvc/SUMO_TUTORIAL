@@ -111,7 +111,7 @@ A manera de ejemplo si deseamos visualizar la grafica de Velocidad vs Distancia 
 python .\scripts\plot_trajectories.py .\sumo\fcd.xml --filter-ids "subway_L1:0.0"
 ```
 
-## Contribuciones
+## Funciones avanzadas en SUMO
 
 Las contribuciones son bienvenidas. Si desea contribuir a este proyecto, abra un problema o envíe una solicitud de extracción con sus mejoras.
 
