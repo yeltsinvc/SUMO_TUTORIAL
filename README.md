@@ -86,9 +86,12 @@ Crear en la carpeta sumo el archivo de configuracion `configuracion.sumocfg` con
         <route-files value="routes.rou.xml,flows.rou.xml"/>
         <additional-files value="additional.xml"/>
     </input>
+    <output>
+        <fcd-output value="fcd.xml"/>
+    </output>
     <time>
         <begin value="0"/>
-        <end value="3600"/>
+        <end value="600"/>
     </time>
 </configuration>
 ```
@@ -98,6 +101,8 @@ Exiten diferentes maneras de ejecutar la simulacion en SUMO. Una de ellas es abr
 ```
 sumo-gui sumo\configuracion.sumocfg
 ```
+
+## Resultados
 
 ## Contribuciones
 
