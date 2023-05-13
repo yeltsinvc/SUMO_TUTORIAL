@@ -114,3 +114,6 @@ python .\scripts\plot_trajectories.py .\sumo\fcd.xml --filter-ids "subway_L1:0.0
 ## Contacto
 
 Para cualquier pregunta consultar con yvaleroc@uni.pe
+
+## Referencia
+[https://github.com/yeltsinvc/Sumo-Tutorial](https://github.com/yeltsinvc/Sumo-Tutorial) 
