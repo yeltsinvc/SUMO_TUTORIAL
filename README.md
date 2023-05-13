@@ -57,10 +57,10 @@ En este tutorial la creación del tráfico vehicular se realizara con el script 
 python .\scripts\randomTrips.py -n .\sumo\net.net.xml -r .\sumo\routes.rou.xml -e 3600 -l
 ```
 
-`-n .\sumo\net.net.xml`: Esta opción especifica la ruta al archivo "net.net.xml" que contiene la definición de la red de transporte en SUMO. El archivo describe los nodos, las calles y las conexiones entre ellos.
-`-r .\sumo\routes.rou.xml`: Esta opción especifica la ruta al archivo `routes.rou.xml` que contiene la definición de las rutas de los vehículos en SUMO. El archivo contiene información sobre los vehículos, sus rutas y horarios.
-`-e 3600`: Esta opción indica la duración de la simulación en segundos. En este caso, se está especificando una duración de 3600 segundos, es decir, 1 hora.
-`-l`: Esta opción indica que se desea imprimir información de registro (logs) durante la simulación.
+- `-n .\sumo\net.net.xml`: Esta opción especifica la ruta al archivo "net.net.xml" que contiene la definición de la red de transporte en SUMO. El archivo describe los nodos, las calles y las conexiones entre ellos.
+- `-r .\sumo\routes.rou.xml`: Esta opción especifica la ruta al archivo `routes.rou.xml` que contiene la definición de las rutas de los vehículos en SUMO. El archivo contiene información sobre los vehículos, sus rutas y horarios.
+- `-e 3600`: Esta opción indica la duración de la simulación en segundos. En este caso, se está especificando una duración de 3600 segundos, es decir, 1 hora.
+- `-l`: Esta opción indica que se desea imprimir información de registro (logs) durante la simulación.
 
 ### 3. Archivo de configuracion
 Crear en la carpeta sumo el archivo de configuracion `configuracion.sumocfg` con el siguiente contenido
