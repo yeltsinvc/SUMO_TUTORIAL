@@ -97,7 +97,7 @@ Crear en la carpeta sumo el archivo de configuracion `configuracion.sumocfg` con
 ```
 
 ### 5. Simulacion
-Exiten diferentes maneras de ejecutar la simulacion en SUMO. Una de ellas es abriendo el archivo `configuracion.sumocfg` que se encuentra en la carpeta sumo, la otra manera es desde el terminal con el siguiente codigo 
+Exiten diferentes maneras de ejecutar la simulacion en SUMO. Una de ellas es abriendo el archivo `configuracion.sumocfg` que se encuentra en la carpeta sumo. La otra manera es desde el terminal con el siguiente codigo 
 ```
 sumo-gui sumo\configuracion.sumocfg
 ```
