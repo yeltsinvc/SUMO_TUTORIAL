@@ -1,7 +1,8 @@
 <configuration>
     <input>
         <net-file value="net.net.xml"/>
-        <route-files value="routes.rou.xml"/>
+        <route-files value="routes.rou.xml,flows.rou.xml"/>
+        <additional-files value="additional.xml"/>
     </input>
     <time>
         <begin value="0"/>

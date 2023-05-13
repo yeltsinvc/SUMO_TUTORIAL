@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-13 14:09:23 by Eclipse SUMO sumo Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value=".\sumo\net.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+        <additional-files value=".\sumo\additional.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="vehroutes.xml"/>
+        <stop-output value="stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
+    <stopinfo id="9_subway_L1:1" type="subway" lane="551979096_0" pos="183.79" parking="0" started="15.00" ended="45.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="5308514828"/>
+    <stopinfo id="8_subway_L1:0" type="subway" lane="551970578_0" pos="188.42" parking="0" started="49.00" ended="79.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="5308410954"/>
+    <stopinfo id="9_subway_L1:1" type="subway" lane="550454250_0" pos="770.46" parking="0" started="101.00" ended="131.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="5310407365"/>
+    <stopinfo id="8_subway_L1:0" type="subway" lane="550454247_0" pos="429.94" parking="0" started="135.00" ended="165.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="5308410955"/>
+    <stopinfo id="9_subway_L1:1" type="subway" lane="551970581_0" pos="188.15" parking="0" started="186.00" ended="216.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="5310407356"/>
+    <stopinfo id="8_subway_L1:0" type="subway" lane="543026867_0" pos="183.35" parking="0" started="221.00" ended="251.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="5308410964"/>
+</stops>

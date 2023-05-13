@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-13 14:09:24.168062 by ptlines2flows.py v1_16_0+0000-94ec4c6cd72
+  options: -n .\sumo\net.net.xml -s .\sumo\additional.xml -l .\sumo\ptlines.xml -o .\sumo\flows.rou.xml -p 120 <doubleminus>use-osm-routes <doubleminus>types subway
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus" vClass="bus"/>
+    <vType id="tram" vClass="tram"/>
+    <vType id="train" vClass="rail"/>
+    <vType id="subway" vClass="rail_urban"/>
+    <vType id="light_rail" vClass="rail_urban"/>
+    <vType id="monorail" vClass="rail_urban"/>
+    <vType id="trolleybus" vClass="bus"/>
+    <vType id="minibus" vClass="bus"/>
+    <vType id="share_taxi" vClass="taxi"/>
+    <vType id="aerialway" vClass="rail_urban" length="2.5" width="2" personCapacity="4"/>
+    <vType id="ferry" vClass="ship"/>
+    <route id="subway_L1:0" color="34,139,34" edges="550454234 550454242 551970578 551970580 550454247 550454249 543026867" >
+        <stop busStop="5308410954" duration="20" until="79.0"/> <!-- Estación San Martín -->
+        <stop busStop="5308410955" duration="20" until="165.0"/> <!-- Estación Santa Rosa -->
+        <stop busStop="5308410964" duration="20" until="251.0"/> <!-- Estación Bayóvar -->
+    </route>
+    <route id="subway_L1:1" color="34,139,34" edges="551979096 549752920 550454250 550454244 551970581 551970579 550454240" >
+        <stop busStop="5308514828" duration="20" until="45.0"/> <!-- Estación Bayóvar -->
+        <stop busStop="5310407365" duration="20" until="131.0"/> <!-- Estación Santa Rosa -->
+        <stop busStop="5310407356" duration="20" until="216.0"/> <!-- Estación San Martín -->
+    </route>
+    <flow id="subway_L1:0" type="subway" route="subway_L1:0" begin="0.0" end="3600.0" period="120" line="L1:0" >
+        <param key="name" value="Villa El Salvador → Bayóvar"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="subway_L1:1" type="subway" route="subway_L1:1" begin="0.0" end="3600.0" period="120" line="L1:1" >
+        <param key="name" value="Bayóvar → Villa El Salvador"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+</routes>

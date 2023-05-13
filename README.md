@@ -51,7 +51,7 @@ Esta línea de comando te permite realizar la conversión de datos de OpenStreet
 
 
 
-### 2. Creacion del trafico de vehiculos ligeros
+### 2. Creacion de viajes del transporte privado y/o taxis
 En este tutorial la creación del tráfico vehicular se realizara con el script randoñTrips.py que permite crear aleatoriamente tráfico vehicular a partir de una red SUMO. Para ello debemos ejecutar en el terminal el siguiente código:
 ```
 python .\scripts\randomTrips.py -n .\sumo\net.net.xml -r .\sumo\routes.rou.xml -e 3600 -l
@@ -62,13 +62,29 @@ python .\scripts\randomTrips.py -n .\sumo\net.net.xml -r .\sumo\routes.rou.xml -
 - `-e 3600`: Esta opción indica la duración de la simulación en segundos. En este caso, se está especificando una duración de 3600 segundos, es decir, 1 hora.
 - `-l`: Esta opción indica que se desea imprimir información de registro (logs) durante la simulación.
 
-### 3. Archivo de configuracion
+
+### 3. Creacion del viajes del transporte publico
+Para la creacion de los viajes de transporte publico se utilizara el script `ptlines2flows.py`
+```
+python .\scripts\ptlines2flows.py -n .\sumo\net.net.xml -s .\sumo\additional.xml -l .\sumo\ptlines.xml -o .\sumo\flows.rou.xml -p 120 --use-osm-routes --types subway
+```
+
+- `-n .\sumo\net.net.xml`: Esta opción especifica la ruta al archivo `net.net.xml` que contiene la definición de la red de transporte en SUMO. El archivo describe los nodos, las calles y las conexiones entre ellos.
+- `-s .\sumo\additional.xml`: Esta opción especifica la ruta al archivo `additional.xml` que contiene información adicional sobre la red de transporte en SUMO. Puede incluir elementos como semáforos, límites de velocidad, etc.
+- `-l .\sumo\ptlines.xml`: Esta opción especifica la ruta al archivo `ptlines.xml` que contiene la definición de las líneas de transporte público. El archivo describe las paradas, las rutas y las frecuencias de los servicios de transporte público.
+- `-o .\sumo\flows.rou.xml`: Esta opción especifica la ruta de salida para el archivo `flows.rou.xml`. El archivo generado contendrá los flujos de vehículos basados en las líneas de transporte público.
+- `-p 120`: Esta opción especifica el intervalo de tiempo en segundos para la generación de flujos de vehículos. En este caso, se está estableciendo un intervalo de 120 segundos, es decir, 2 minutos.
+- `--use-osm-routes`: Esta opción indica que se utilizarán las rutas de OpenStreetMap (OSM) en lugar de las rutas definidas en el archivo "ptlines.xml". OSM es una fuente de datos de mapas y rutas de código abierto.
+- `--types subway`: Esta opción especifica el tipo de transporte público que se está procesando. En este caso, se está utilizando el tipo `subway` (metro).
+
+### 4. Archivo de configuracion
 Crear en la carpeta sumo el archivo de configuracion `configuracion.sumocfg` con el siguiente contenido
 ```
 <configuration>
     <input>
-        <net-file value="tu_red.net.xml"/>
-        <route-files value="tus_rutas.rou.xml"/>
+        <net-file value="net.net.xml"/>
+        <route-files value="routes.rou.xml,flows.rou.xml"/>
+        <additional-files value="additional.xml"/>
     </input>
     <time>
         <begin value="0"/>

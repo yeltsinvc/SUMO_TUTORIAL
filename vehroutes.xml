@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-13 14:09:23 by Eclipse SUMO sumo Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value=".\sumo\net.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+        <additional-files value=".\sumo\additional.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="vehroutes.xml"/>
+        <stop-output value="stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="8_subway_L1:0" type="subway" depart="0.00" departLane="0" arrival="251.00">
+        <route edges="550454234 550454242 551970578 551970580 550454247 550454249 543026867"/>
+        <stop busStop="5308410954" duration="30.00"/>
+        <stop busStop="5308410955" duration="30.00"/>
+        <stop busStop="5308410964" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="9_subway_L1:1" type="subway" depart="0.00" departLane="0" arrival="257.00">
+        <route edges="551979096 549752920 550454250 550454244 551970581 551970579 550454240"/>
+        <stop busStop="5308514828" duration="30.00"/>
+        <stop busStop="5310407365" duration="30.00"/>
+        <stop busStop="5310407356" duration="30.00"/>
+    </vehicle>
+
+</routes>
