@@ -49,22 +49,21 @@ netconvert --osm-files .\datos\sanjuanlurigancho.osm -o sumo\net.net.xml --osm.s
 
 Esta línea de comando te permite realizar la conversión de datos de OpenStreetMap a una red de tráfico en SUMO, y obtener información detallada sobre las paradas de autobús y las líneas de transporte público en la zona especificada por el archivo OSM.
 
-Adicionalmente se puede agregar las siguientes opciones:
-```
---geometry.remove --ramps.guess --junctions.join --tls.guess-signals --tls.discard-simple --tls.join --tls.default-type actuated
-```
-`--geometry.remove` : Simplifica la red (ahorrando espacio) sin cambiar la topología.
-`--ramps.guess` : Los carriles de aceleración/desaceleración a menudo no se incluyen en los datos de OSM. Esta opción identifica carreteras que probablemente tengan estos carriles adicionales y los añade
-`--junctions.join` : Ver #Junctions
-`--tls.guess-signals --tls.discard-simple --tls.join` : Ver #Semáforos
-`--tls.default-type actuated` : Los semáforos estáticos por defecto se definen sin conocimiento de los patrones de tráfico y pueden funcionar mal en condiciones de mucho tráfico.
+
 
 ### 2. Creacion del trafico de vehiculos ligeros
+En este tutorial la creación del tráfico vehicular se realizara con el script randoñTrips.py que permite crear aleatoriamente tráfico vehicular a partir de una red SUMO. Para ello debemos ejecutar en el terminal el siguiente código:
 ```
 python .\scripts\randomTrips.py -n .\sumo\net.net.xml -r .\sumo\routes.rou.xml -e 3600 -l
 ```
 
+`-n .\sumo\net.net.xml`: Esta opción especifica la ruta al archivo "net.net.xml" que contiene la definición de la red de transporte en SUMO. El archivo describe los nodos, las calles y las conexiones entre ellos.
+`-r .\sumo\routes.rou.xml`: Esta opción especifica la ruta al archivo `routes.rou.xml` que contiene la definición de las rutas de los vehículos en SUMO. El archivo contiene información sobre los vehículos, sus rutas y horarios.
+`-e 3600`: Esta opción indica la duración de la simulación en segundos. En este caso, se está especificando una duración de 3600 segundos, es decir, 1 hora.
+`-l`: Esta opción indica que se desea imprimir información de registro (logs) durante la simulación.
+
 ### 3. Archivo de configuracion
+Crear en la carpeta sumo el archivo de configuracion `configuracion.sumocfg` con el siguiente contenido
 ```
 <configuration>
     <input>

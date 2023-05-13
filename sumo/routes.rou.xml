@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-05-13 01:02:01.786637 by randomTrips.py v1_16_0+0000-94ec4c6cd72
+<!-- generated on 2023-05-13 13:46:55.839045 by randomTrips.py v1_16_0+0000-94ec4c6cd72
 <configuration>
     <end value="3600"/>
     <length value="True"/>
@@ -9,7 +9,7 @@
 </configuration>
 -->
 
-<!-- generated on 2023-05-13 01:01:49 by Eclipse SUMO duarouter Version 1.16.0
+<!-- generated on 2023-05-13 13:46:44 by Eclipse SUMO duarouter Version 1.16.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
