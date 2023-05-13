@@ -102,7 +102,14 @@ Exiten diferentes maneras de ejecutar la simulacion en SUMO. Una de ellas es abr
 sumo-gui sumo\configuracion.sumocfg
 ```
 
-## Resultados
+### 6.Resultados
+Existen diversas maneras de analizar los resultados de SUMO, una de ellas es con el archivo de salida `fcd.xml`. El archivo `fcd.xml` en SUMO almacena información sobre la posición, velocidad, aceleración y otras características de los vehículos en una red de tráfico simulada. La información contenida en el archivo `fcd.xml` se utiliza para analizar el flujo de tráfico, evaluar el rendimiento de las infraestructuras de transporte, estudiar los patrones de viaje y realizar diferentes tipos de análisis y simulaciones en el software SUMO. Estos datos son valiosos para comprender el comportamiento de los vehículos y optimizar la planificación urbana y el diseño de las redes de transporte.
+
+A manera de ejemplo si deseamos visualizar la grafica de Velocidad vs Distancia del metro de Lima, podemos ejecutar el siguiente codigo en el terminal.
+
+```
+python .\scripts\plot_trajectories.py .\sumo\fcd.xml --filter-ids "subway_L1:0.0"
+```
 
 ## Contribuciones
 
