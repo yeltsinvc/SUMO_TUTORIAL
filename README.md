@@ -52,7 +52,7 @@ Esta línea de comando te permite realizar la conversión de datos de OpenStreet
 
 
 ### 2. Creacion de viajes del transporte privado y/o taxis
-En este tutorial la creación del tráfico vehicular se realizara con el script randoñTrips.py que permite crear aleatoriamente tráfico vehicular a partir de una red SUMO. Para ello debemos ejecutar en el terminal el siguiente código:
+En este tutorial la creación del tráfico vehicular se realizara con el script randomTrips.py que permite crear aleatoriamente tráfico vehicular a partir de una red SUMO. Para ello debemos ejecutar en el terminal el siguiente código:
 ```
 python .\scripts\randomTrips.py -n .\sumo\net.net.xml -r .\sumo\routes.rou.xml -e 3600 -l
 ```
