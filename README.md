@@ -24,9 +24,9 @@ El proyecto sigue la siguiente estructura de carpetas:
 
 ## Requerimientos
 
-1. Descargar el repositorio desde [https://github.com/yeltsinvc/SUMO_TUTORIAL](https://github.com/yeltsinvc/SUMO_TUTORIAL). Descomprime el repositorio.
-2. Instale [SUMO](https://www.eclipse.org/sumo/).
-3. Instale un editor y/o alguna plafaforma que permita trabajar con python. En el caso de editor de codigo se recomienda [Visual Studio Code](https://code.visualstudio.com/updates/v1_78) y para el caso de plataformar utilizar [Spyder de Anaconda](https://www.anaconda.com/download)
+1. Descargar el repositorio desde [https://github.com/yeltsinvc/SUMO_TUTORIAL](https://github.com/yeltsinvc/SUMO_TUTORIAL). Descomprimir el repositorio.
+2. Instalar [SUMO](https://www.eclipse.org/sumo/).
+3. Instalar un editor y/o alguna plafaforma que permita trabajar con python. En el caso de editor de codigo se recomienda [Visual Studio Code](https://code.visualstudio.com/updates/v1_78) y para el caso de plataforma utilizar [Spyder de Anaconda](https://www.anaconda.com/download)
 
 ## Tutorial Basico
 ### 1. Conversion del archivo osm a una red en SUMO.
@@ -47,12 +47,12 @@ netconvert --osm-files .\datos\sanjuanlurigancho.osm -o sumo\net.net.xml --osm.s
 
 - `--ptline-output sumo\ptlines.xml`: Esta opción especifica el nombre y la ubicación del archivo de salida que contiene información sobre las líneas de transporte público generadas. En este caso, el archivo de salida se guarda en la carpeta `sumo` con el nombre `ptlines.xml`.
 
-Esta línea de comando te permite realizar la conversión de datos de OpenStreetMap a una red de tráfico en SUMO, y obtener información detallada sobre las paradas de autobús y las líneas de transporte público en la zona especificada por el archivo OSM.
+Esta línea de comando permite realizar la conversión de datos de OpenStreetMap a una red de tráfico en SUMO, y obtener información detallada sobre las paradas de autobús y las líneas de transporte público en la zona especificada por el archivo OSM.
 
 
 
 ### 2. Creacion de viajes del transporte privado y/o taxis
-En este tutorial la creación del tráfico vehicular se realizara con el script randomTrips.py que permite crear aleatoriamente tráfico vehicular a partir de una red SUMO. Para ello debemos ejecutar en el terminal el siguiente código:
+En este tutorial la creación del tráfico vehicular se realizara con el script randomTrips.py, que permite crear aleatoriamente tráfico vehicular a partir de una red SUMO. Para ello debemos ejecutar en el terminal el siguiente código:
 ```
 python .\scripts\randomTrips.py -n .\sumo\net.net.xml -r .\sumo\routes.rou.xml -e 3600 -l
 ```
