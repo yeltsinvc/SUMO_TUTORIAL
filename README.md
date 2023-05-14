@@ -63,7 +63,7 @@ python .\scripts\randomTrips.py -n .\sumo\net.net.xml -r .\sumo\routes.rou.xml -
 - `-l`: Esta opción indica que se desea imprimir información de registro (logs) durante la simulación.
 
 
-### 3. Creacion del viajes del transporte publico
+### 3. Creacion de viajes del transporte publico
 Para la creacion de los viajes de transporte publico se utilizara el script `ptlines2flows.py`
 ```
 python .\scripts\ptlines2flows.py -n .\sumo\net.net.xml -s .\sumo\additional.xml -l .\sumo\ptlines.xml -o .\sumo\flows.rou.xml -p 120 --use-osm-routes --types subway
